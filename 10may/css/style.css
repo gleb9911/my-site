@@ -1,0 +1,57 @@
+body{
+    margin: 0px;
+    background-color: blanchedalmond;
+}
+
+header{
+    background-color: aqua;
+}
+header img{
+    height: 80px;
+
+}
+footer{
+    background-color: aqua;
+    margin-top:20px ;
+}
+footer img{
+    height: 160px;
+}
+.countainer{
+    display: flex;
+}
+.block{
+    width: 50%;
+    margin: 20px;
+}
+.post{
+ display: flex;   
+ font-size: 25px;
+ border-radius: 15px;
+ background-color: white;
+}
+.post img{
+    height: 120px;
+    margin: 10px;
+}
+.comment{
+    margin:30px ;
+    background-color: aqua;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.subcomm{
+    margin: 30px;
+}
+header{
+    display: flex;
+}
+.menu ul {
+    display: flex;
+    list-style: none;
+}
+.menu ul li{
+    font-size: 30px;
+    margin-right: 15px;
+}
